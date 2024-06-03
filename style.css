@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(18, 7, 7);
+    background: linear-gradient(188deg, rgba(18, 7, 7, 1) 0%, rgba(234, 249, 35, 1) 90%);
+
+}
+
+header h1 {
+    color: yellow;
+    margin-left: -80px;
+}
+
+.paitexto p{
+    font-family: sans-serif;
+    font-size: 10px
+}
+
+.texto1 p{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.texto2{
+    font-family: sans-serif;
+}
+header option {
+    font-size: 50px;
+    color: #fefae0;
+    background-color: black;
+    cursor: pointer;
+}
+
+.logomarca img {
+    width: 5rem;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+header label {
+    height: 10px;
+    width: 500px;
+}
+
+.label img {
+    cursor: pointer;
+}
+
+.lista ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.lista ul li {
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.lista ul li a {
+    color: yellow;
+    font: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blac;
+    width: 80vh;
+    height: 10vh;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+header img{
+    cursor: pointer;
+}
+.menu h1{
+    margin-right: 3rem;
+}
+
+.pesquisa {
+    margin-left: 50px;
+}
+
+.pesquisa img {
+    width: 1rem;
+
+
+}
+
+.paitexto p{
+    font-size:10px ;
+}
+
+.corpo1 img{
+    width: 100vh;
+}
+.corpo1 {
+    height: 65vh;
+    display: flex;
+    background-color: #4a4e69;
+
+}
+
+.paitexto p {
+    align-items: justify;
+    text-align: center;
+    color: white;
+font-size: 35px;
+    margin-top: 30px;
+}
+
+.corpo2 {
+    text-align: center;
+    height: 5vh;
+    justify-content: center;
+align-items: center;
+
+}
+
+#myVideo {
+    position: static;
+    /*fixed*/
+    /*terá explicação*/
+    width: 50vw;
+    margin-left: 30rem;
+    
+    margin-top: 5rem;
+    
+}
+
+.texto3{
+    text-align: center;
+    
+}
+
+.texto3 h1{
+    font-size:30px;
+}
+
+.texto3 p{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.corpo3{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.corpo3 img{
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+margin-right: 50px;
+border-radius: 5px;
+border-color: black;
+box-shadow: 5px 5px 5px black;
+}
+
+footer{
+    height: 10rem;
+    justify-content: center;
+    display: flex;
+    background-color: #001d3d;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.rede i{
+    margin-right: 35px;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.lista2{
+    
+    align-items: center;
+    text-align: center;
+    
+}
+
+.lista2 ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lista2 ul li{
+    margin-right: 35px;
+    font-size: 1.5rem;
+
+}
+
+.lista2 a{
+    color: white;
+    
+    
+}
+
+.lista2 {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center;
+}
+
+.lista2 ul {
+    display: flex;
+    list-style: none; /* Remover os marcadores de lista */
+}
+
+.lista2 ul li {
+    margin-right: 20px; /* Espaçamento entre os itens da lista */
+    font-size: 1.5rem;
+}
+
+.lista2 a {
+    color: white;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+
+.efeito-imagem img {
+    transition: opacity 0.5s ;
+}
+
+.efeito-imagem:hover img {
+    opacity: 0;
+}
+
+.efeito-imagem .text {
+    position: absolute; /*Posição da imagem e do texto no mesmo lugar*/
+    
+    opacity: 0; /*Opacidade da imagem e do texto*/
+    transition: opacity 0.5s ; /*transição da imagem para o texto*/
+}
+
+.efeito-imagem:hover .text {
+    opacity: 1;
+}
+
+.text{
+    align-items: justify;
+    text-align: center;
+    width: 30rem;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    
+}
+
+.efeito-imagem{
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+}
+
+.rede i:hover{
+margin-bottom: 15px;
+transition: 0.8s;
+
+}
+
+footer ul li a:hover{
+    color: #fdd85d;
+    transition: 0.8s;
+    margin-bottom: 15px;
+}
+
+.lista ul li a:hover{
+    color: white;
+    transition: 0.8s;
+    
+}
