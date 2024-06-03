@@ -44,10 +44,12 @@ header option {
     margin-top: 5px;
 
 }
-
+label{
+    width: 3rem;
+}
 header label {
     height: 10px;
-    width: 500px;
+    width: 50rem;
 }
 
 .label img {
@@ -97,26 +99,29 @@ header img{
 
 }
 
-.paitexto p{
-    font-size:10px ;
-}
 
 .corpo1 img{
-    width: 100vh;
+    width: 105vh;
 }
 .corpo1 {
     height: 65vh;
     display: flex;
-    background-color: #4a4e69;
+    background-color: #001d3d;
 
 }
+
+.corpo1 p{
+    font-size: 1rem;
+}
+
 
 .paitexto p {
     align-items: justify;
     text-align: center;
     color: white;
-font-size: 35px;
-    margin-top: 30px;
+font-size: 29px;
+    margin-top: 50px;
+    font-family: sans-serif;
 }
 
 .corpo2 {
@@ -171,68 +176,52 @@ border-color: black;
 box-shadow: 5px 5px 5px black;
 }
 
-footer{
-    height: 10rem;
-    justify-content: center;
-    display: flex;
+footer {
     background-color: #001d3d;
-    margin-top: 30px;
-    align-items: center;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    
+    margin-top: 20px;
 }
 
-.rede i{
-    margin-right: 35px;
+.footer-content {
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.rede {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 35px;
+}
+.rede i {
     font-size: 5rem;
 }
-
-.lista2{
-    
-    align-items: center;
-    text-align: center;
-    
-}
-
-.lista2 ul {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.lista2 ul li{
-    margin-right: 35px;
-    font-size: 1.5rem;
-
-}
-
-.lista2 a{
-    color: white;
-    
-    
-}
-
 .lista2 {
-    display: flex;
-    justify-content: center; /* Centralizar horizontalmente */
-    align-items: center;
+    margin-top: -2rem;
+    text-align: center;
 }
 
 .lista2 ul {
+    list-style: none;
     display: flex;
-    list-style: none; /* Remover os marcadores de lista */
+    text-align: center;
 }
 
 .lista2 ul li {
-    margin-right: 20px; /* Espaçamento entre os itens da lista */
-    font-size: 1.5rem;
+    margin-left: 20px;
+    text-align: center;
 }
 
-.lista2 a {
-    color: white;
-    text-decoration: none; /* Remover sublinhado dos links */
+.rede a i{
+    font-size: 3rem;
+    margin-right: 35px;
+    
 }
+
+
 
 
 .efeito-imagem img {
@@ -263,6 +252,10 @@ footer{
     font-family: sans-serif;
     
     
+}
+
+.lista2 a{
+color: white;
 }
 
 .efeito-imagem{
