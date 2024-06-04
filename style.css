@@ -10,7 +10,8 @@ header {
     align-items: center;
     background: rgb(18, 7, 7);
     background: linear-gradient(188deg, rgba(18, 7, 7, 1) 0%, rgba(234, 249, 35, 1) 90%);
-
+    height: 10vh;
+    
 }
 
 header h1 {
@@ -18,19 +19,20 @@ header h1 {
     margin-left: -80px;
 }
 
-.paitexto p{
+.paitexto p {
     font-family: sans-serif;
     font-size: 10px
 }
 
-.texto1 p{
+.texto1 p {
     font-family: sans-serif;
     font-size: 10px;
 }
 
-.texto2{
+.texto2 {
     font-family: sans-serif;
 }
+
 header option {
     font-size: 50px;
     color: #fefae0;
@@ -44,9 +46,11 @@ header option {
     margin-top: 5px;
 
 }
-label{
+
+label {
     width: 3rem;
 }
+
 header label {
     height: 10px;
     width: 50rem;
@@ -82,10 +86,12 @@ header label {
     border-radius: 25px;
     margin-top: 15px;
 }
-header img{
+
+header img {
     cursor: pointer;
 }
-.menu h1{
+
+.menu h1 {
     margin-right: 3rem;
 }
 
@@ -100,17 +106,18 @@ header img{
 }
 
 
-.corpo1 img{
+.corpo1 img {
     width: 105vh;
 }
+
 .corpo1 {
-    height: 65vh;
+    height: 55vh;
     display: flex;
     background-color: #001d3d;
 
 }
 
-.corpo1 p{
+.corpo1 p {
     font-size: 1rem;
 }
 
@@ -119,7 +126,7 @@ header img{
     align-items: justify;
     text-align: center;
     color: white;
-font-size: 29px;
+    font-size: 29px;
     margin-top: 50px;
     font-family: sans-serif;
 }
@@ -128,7 +135,7 @@ font-size: 29px;
     text-align: center;
     height: 5vh;
     justify-content: center;
-align-items: center;
+    align-items: center;
 
 }
 
@@ -138,42 +145,42 @@ align-items: center;
     /*terá explicação*/
     width: 50vw;
     margin-left: 30rem;
-    
+
     margin-top: 5rem;
-    
+
 }
 
-.texto3{
+.texto3 {
     text-align: center;
-    
+
 }
 
-.texto3 h1{
-    font-size:30px;
+.texto3 h1 {
+    font-size: 30px;
 }
 
-.texto3 p{
+.texto3 p {
     font-size: 25px;
     font-family: sans-serif;
     margin-top: 10px;
 }
 
-.corpo3{
+.corpo3 {
     display: flex;
     margin-top: 35px;
     justify-content: center;
     margin-top: 5rem;
 }
 
-.corpo3 img{
+.corpo3 img {
     width: 30rem;
     height: 20rem;
     display: flex;
     justify-content: space-between;
-margin-right: 50px;
-border-radius: 5px;
-border-color: black;
-box-shadow: 5px 5px 5px black;
+    margin-right: 50px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
 }
 
 footer {
@@ -196,9 +203,11 @@ footer {
     align-items: center;
     margin-right: 35px;
 }
+
 .rede i {
     font-size: 5rem;
 }
+
 .lista2 {
     margin-top: -2rem;
     text-align: center;
@@ -215,17 +224,17 @@ footer {
     text-align: center;
 }
 
-.rede a i{
+.rede a i {
     font-size: 3rem;
     margin-right: 35px;
-    
+
 }
 
 
 
 
 .efeito-imagem img {
-    transition: opacity 0.5s ;
+    transition: opacity 0.5s;
 }
 
 .efeito-imagem:hover img {
@@ -233,52 +242,55 @@ footer {
 }
 
 .efeito-imagem .text {
-    position: absolute; /*Posição da imagem e do texto no mesmo lugar*/
-    
-    opacity: 0; /*Opacidade da imagem e do texto*/
-    transition: opacity 0.5s ; /*transição da imagem para o texto*/
+    position: absolute;
+    /*Posição da imagem e do texto no mesmo lugar*/
+
+    opacity: 0;
+    /*Opacidade da imagem e do texto*/
+    transition: opacity 0.5s;
+    /*transição da imagem para o texto*/
 }
 
 .efeito-imagem:hover .text {
     opacity: 1;
 }
 
-.text{
+.text {
     align-items: justify;
     text-align: center;
     width: 30rem;
     justify-content: center;
     font-size: 20px;
     font-family: sans-serif;
-    
-    
+
+
 }
 
-.lista2 a{
-color: white;
+.lista2 a {
+    color: white;
 }
 
-.efeito-imagem{
+.efeito-imagem {
     justify-content: center;
     align-items: center;
-    
+
     display: flex;
 }
 
-.rede i:hover{
-margin-bottom: 15px;
-transition: 0.8s;
+.rede i:hover {
+    margin-bottom: 15px;
+    transition: 0.8s;
 
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
     color: #fdd85d;
     transition: 0.8s;
     margin-bottom: 15px;
 }
 
-.lista ul li a:hover{
+.lista ul li a:hover {
     color: white;
     transition: 0.8s;
-    
+
 }
