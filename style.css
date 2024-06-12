@@ -10,7 +10,7 @@ header {
     align-items: center;
     background: rgb(18, 7, 7);
     background: linear-gradient(188deg, rgba(18, 7, 7, 1) 0%, rgba(234, 249, 35, 1) 90%);
-    height: 10vh;
+    padding: 1vw;
     
 }
 
@@ -51,14 +51,7 @@ label {
     width: 3rem;
 }
 
-header label {
-    height: 10px;
-    width: 50rem;
-}
 
-.label img {
-    cursor: pointer;
-}
 
 .lista ul {
     display: flex;
@@ -111,7 +104,7 @@ header img {
 }
 
 .corpo1 {
-    height: 55vh;
+padding: 15px;
     display: flex;
     background-color: #001d3d;
 
@@ -127,13 +120,13 @@ header img {
     text-align: center;
     color: white;
     font-size: 29px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-family: sans-serif;
 }
 
 .corpo2 {
     text-align: center;
-    height: 5vh;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
 
@@ -141,17 +134,28 @@ header img {
 
 #myVideo {
     position: static;
+    
     /*fixed*/
     /*terá explicação*/
     width: 50vw;
-    margin-left: 30rem;
+   align-items: center;
+   justify-content: center;
+   
+   
+padding: 2rem;
+    align-items: center;
 
-    margin-top: 5rem;
+}
 
+.video{
+    align-items: center;
+    align-content: center;
+    
 }
 
 .texto3 {
     text-align: center;
+    align-content: center;
 
 }
 
@@ -166,10 +170,15 @@ header img {
 }
 
 .corpo3 {
+    padding: 1rem;
     display: flex;
     margin-top: 35px;
     justify-content: center;
-    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.corpo2{
+    padding: 1rem;
 }
 
 .corpo3 img {
@@ -181,6 +190,7 @@ header img {
     border-radius: 5px;
     border-color: black;
     box-shadow: 5px 5px 5px black;
+    
 }
 
 footer {
